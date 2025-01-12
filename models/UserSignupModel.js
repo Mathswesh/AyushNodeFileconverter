@@ -2,6 +2,9 @@
 const mongoose = require('mongoose')
 
 const userSignupSchema = new mongoose.Schema({
+    id:{
+        type:Number,
+    },
     firstname:{
         type:String,
         // required: [true,"Name is Compulsory."]
